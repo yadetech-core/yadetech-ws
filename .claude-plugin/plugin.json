@@ -1,0 +1,9 @@
+{
+  "name": "yadetech-ws",
+  "version": "1.0.0",
+  "author": { "name": "Yadetech" },
+  "description": "Método Yadetech para criar e evoluir sites em Next.js: regras apuradas no código do produto, SEO completo, design sem cara de IA, movimento com propósito, imagens geradas e deploy na Vercel.",
+  "repository": "https://github.com/yadetech-core/yadetech-ws",
+  "commands": "./commands",
+  "skills": ["./skills/yadetech-ws"]
+}

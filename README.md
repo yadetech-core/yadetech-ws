@@ -19,10 +19,12 @@ Para atualizar depois: `/plugin marketplace update yadetech` e reinicie o Claude
 **Direto na pasta pessoal (para editar e testar):**
 
 ```bash
-./bin/instalar.sh     # copia para ~/.claude/skills e ~/.claude/commands
+./bin/instalar.sh     # copia para ~/.claude/skills/yadetech-ws
 ```
 
-Nos dois casos, reinicie o Claude Code: skills e comandos são lidos quando a sessão começa.
+Escolha **um** dos dois caminhos: plugin e cópia pessoal ao mesmo tempo duplicam o nome e
+atrapalham o menu. Nos dois casos, reinicie o Claude Code (no VS Code, recarregue a janela):
+skills são lidas quando a sessão começa.
 
 ## Usar
 
@@ -45,7 +47,6 @@ Nos dois casos, reinicie o Claude Code: skills e comandos são lidos quando a se
 | `.../anti-slop.md` | o que tirar e o que colocar no lugar, em texto e em layout |
 | `.../verificacao.md` | tipos, capturas, três larguras, medir em vez de achar |
 | `.../publicacao.md` | GitHub, Vercel, domínio e conferência do que está no ar |
-| `commands/yadetech-ws.md` | atalho `/yadetech-ws` que invoca a skill |
 
 ## Editar
 
